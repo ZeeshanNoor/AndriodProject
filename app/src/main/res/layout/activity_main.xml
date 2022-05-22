@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/selectedTime"
+        android:text="08: 45 pm"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="46dp"
+        android:layout_marginTop="200dp"/>
+    <Button
+        android:id="@+id/selectTimeBtn"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:text="Select Time"
+        android:layout_marginHorizontal="26dp"
+        android:textSize="26dp"/>
+    <Button
+        android:id="@+id/setAlarmBtn"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:text="Set Alarm"
+        android:layout_marginHorizontal="26dp"
+        android:textSize="26dp"/>
+    <Button
+        android:id="@+id/cancelAlarmeBtn"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:text="Cancel alarm"
+        android:layout_marginHorizontal="26dp"
+        android:textSize="26dp"/>
+
+
+
+
+</LinearLayout>
